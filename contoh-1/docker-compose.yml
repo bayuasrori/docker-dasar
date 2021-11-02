@@ -1,0 +1,15 @@
+version: "3.0"
+
+services:
+  db:
+    image: postgres:14.0
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
