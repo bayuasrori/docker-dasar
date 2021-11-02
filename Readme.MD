@@ -7,7 +7,7 @@
 
 <p>Docker adalah aplikasi untuk menyatukan berbagai file software dan pendukungnya dalam sebuah wadah (container) agar memudahkan proses pengembangan software. Docker dengan containernya docker mampu menggantikan peran Virtual Machine</p>
 
-![Perbandingan VM dan Container](assets/docker-container.png)
+![Perbandingan VM dan Container](https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/098/original/docker-container.png?1615188692)
 
 <p>Dapat dilihat sekilas pada gambar diatas, untuk VM (sebelah kiri) menggunakan Hypervisor dan perlu menginstall OS sendiri agar bisa dipakai untuk menjalankan aplikasinya. Sedangkan pada docker, docker engine menggunakan kernel dari OS untuk kontainerisasi aplikasi-aplikasinya sehingga memakan lebih sedikit memory dibandingkan VM yang memerlukan OS</p>
 
